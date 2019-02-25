@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:gravity="center">
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TableRow
+            android:layout_marginBottom="20dp">
+            <ImageButton
+                android:id="@+id/purpleImageBtn"
+                android:layout_height="150dp"
+                android:layout_width="150dp"
+                android:background="@drawable/custom_purple"/>
+            <ImageButton
+                android:id="@+id/blueImageBtn"
+                android:layout_height="150dp"
+                android:layout_width="150dp"
+                android:layout_marginLeft="20dp"
+                android:background="@drawable/custom_blue"/>
+        </TableRow>
+
+        <TableRow>
+            <ImageButton
+                android:id="@+id/greenImageBtn"
+                android:layout_height="150dp"
+                android:layout_width="150dp"
+                android:background="@drawable/custom_green"/>
+            <ImageButton
+                android:id="@+id/orangeImageBtn"
+                android:layout_height="150dp"
+                android:layout_width="150dp"
+                android:layout_marginLeft="20dp"
+                android:background="@drawable/custom_orange"/>
+        </TableRow>
+
+    </TableLayout>
+
+</LinearLayout>
